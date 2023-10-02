@@ -51,7 +51,6 @@ This repository contains the following folders and files:
 | **[Readme.md](README.md)** | Introduction and overview of this repository |
 
 
-
 ## License 🪪
 
 This repository is licensed under the  GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007. See the [LICENSE](https://github.com/tenzopy/codeIt/blob/main/LICENSE) file for more details.
