@@ -3,12 +3,12 @@
 ## GUIDELINES FOR CONTRIBUTNG.
 
 - Select your preferred programming language folder.
-- Either fix the codes that are mentioned on issues or create ONE program on your preferred language that solves a specific task and create a pull request.
+- Either fix the codes that are mentioned on issues or create a new issue to make ONE program on your preferred language that solves a specific task and create a pull request.
 - NOTE : Use the respective language folders for committing your code.
 - Use smallercase letters for filename and don't include spaces in the filename.
 - Use proper file extensions for your file.
 - Don't Copy paste codes from the internet as it will be considered as invalid.
-- Create a new Issue stating what the program does,which langauge used,and a short description of the program if you want to add new files into the repo.
+- Create a new Issue stating what the program does,which langauge used,and a short description of the program if you want to add new programs that does a specific task into the repo.
 - Happy Coding :)
 
 
