@@ -1,28 +1,24 @@
-#include<stdio.h>
- 
-void main()
-{
-    int n1, n2, gcd, rem, numerator, denominator;
- 
+#include <stdio.h>
+
+int findGCD(int n1, int n2);
+
+int main() {
+    int n1, n2, gcd;
+
     printf("Enter two numbers\n");
     scanf("%d %d", &n1, &n2);
-    if (n1 > n2)
-    {
-        numerator = n1;
-        denominator = n2;
-    }
-    else
-    {
-        numerator = n2;
-        denominator = n1;
-    }
-    rem = numerator % denominator;
-    while (rem != 0)
-    {
-        numerator   = denominator;
-        denominator = rem;
-        rem   = numerator % denominator;
-    }
-    gcd = denominator;
+
+    gcd = findGCD(n1, n2);
+
     printf("GCD of %d and %d = %d\n", n1, n2, gcd);
+
+    return 0;
+}
+
+int findGCD(int n1, int n2) {
+    if (n2 != 0) {
+        return findGCD(n2, n1 % n2);
+    } else {
+        return n1;
+    }
 }
