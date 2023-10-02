@@ -8,6 +8,7 @@
 - Use smallercase letters for filename and don't include spaces in the filename.
 - Use proper file extensions for your file.
 - Don't Copy paste codes from the internet as it will be considered as invalid.
+- Create a new Issue stating what the program does,which langauge used,and a short description of the program if you want to add new files into the repo.
 - Happy Coding :)
 
 
