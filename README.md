@@ -40,7 +40,7 @@ This repository contains the following folders and files:
 | **[Javascript](javascript)** | Countdown Timer, Color Flipper, To-Do-List etc. |
 | **[JupyterNotebook](jupyterNotebook)** | Sentiment Analysis |
 | **[Kotlin](kotlin)** | Template to print in Kotlin |
-| **[OOPS](OOPS)** | Constructor , Destructors , Standart Template , Pointers etc.|
+| **[OOPS](oopsConcepts)** | Constructor , Destructors , Standart Template , Pointers etc.|
 | **[Python](python)** | Data Structures, Algorithms, Modules, Web Scraping, etc. |
 | **[Ruby](ruby)** | Data Structures, Algorithms, Modules, Web Scraping, etc. |
 | **[Rust](rust)** | Template to print in Rust |
