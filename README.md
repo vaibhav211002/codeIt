@@ -64,7 +64,7 @@ Don't forget to leave a star ⭐️
 
 ## Thank You to Our Contributors❤️
 <details>
-<Link href="https://github.com/akkupy/Code_Dump/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=akkupy/Code_Dump" />
+<Link href="https://github.com/tenzopy/codeIt/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=tenzopy/codeIt" />
 <Link/>
 </details>
