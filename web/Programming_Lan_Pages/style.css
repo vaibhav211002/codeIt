@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+}
+.card {
+    border: 1px solid #d46161;
+    border-radius: 10px;
+    width: 405px;
+    margin: 10px;
+    text-align: center;
+    overflow: hidden;
+    height: 250px;
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.heading {
+    background: linear-gradient(to right, #FF5733, #FFC300); 
+    height: 50px;
+    padding: 20px;
+    font-size: 50px;
+    color: white; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+.card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 18px;
+}
+
+.card-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+.head {
+    width: 100%;
+    background-color: black;
+    height: 100px;
+    margin: 0;
+    font-size: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
