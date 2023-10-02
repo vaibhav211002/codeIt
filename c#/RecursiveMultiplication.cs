@@ -1,6 +1,6 @@
 using System;
 
-class Program
+class Program 
 {
     static int Multiply(int num1, int num2)
     {
