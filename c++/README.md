@@ -3,7 +3,7 @@
 
 - This folder is for contributing codes in C++.
 
-| Program                                                    |
+| Programs                                                    |
 | ---------------------------------------------------------- |
 | **[Implementation of KMP Algorithm](kmpalgorithm.cpp)**    |
 | **[Implementation of Krushkal's Algorithm](krushkal.cpp)** |
