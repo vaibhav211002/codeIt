@@ -1,0 +1,87 @@
+h1 {
+    text-align: center;
+    font-variant: initial;
+    font-size: bolder;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 2px;
+    text-underline-position: under;
+
+}
+
+body {
+    background-color: rgb(225, 105, 101);
+
+
+}
+
+.todo {
+    justify-content: center;
+    margin-top: 70px;
+    justify-items: auto;
+    display: flex;
+    /* border:1px solid black; */
+    /* margin: 70px 430px; */
+
+}
+
+
+
+.label-style {
+
+    background-color: rgb(245, 238, 238);
+    /* padding: 8px; */
+    padding-bottom: 11px;
+    padding-top: 4.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 2px solid black;
+    border-top: 3px solid black;
+    border-bottom: 2px solid black;
+    font-weight: bolder;
+
+}
+
+.input-style {
+    height: 33px;
+    width: 35vw;
+    /* border-left: 2px solid black; */
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.btn-style {
+    background-color: green;
+    padding: 10px 20px;
+    border-right: 2px solid rgb(32, 30, 30);
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.lists {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+}
+
+.tasks {
+    text-align: center;
+    background-color: rgb(245, 238, 238);
+    margin: 6px 0;
+    padding: 10px 8px;
+    padding-left: 2px;
+    width: 40%;
+
+
+}
+
+.input-task {
+
+    font-size: large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif, italic;
+}
