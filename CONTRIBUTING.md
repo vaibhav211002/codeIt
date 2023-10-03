@@ -9,7 +9,7 @@
 - Use proper file extensions for your file.
 - Don't Copy paste codes from the internet as it will be considered as invalid.
 - Create a new Issue stating what the program does,which langauge used,and a short description of the program if you want to add new programs that does a specific task into the repo.
-- NEW ISSUE THAT ARE CREATED SHOULD CONTAIN THE PROBLEM STATEMENT, PROPOSED SOLUTION AND AN OVERVIEW SECTION.
+- NEW ISSUE THAT ARE CREATED SHOULD CONTAIN THE PROBLEM STATEMENT, PROPOSED SOLUTION AND AN OVERVIEW SECTION. [Check an example here](https://github.com/tenzopy/codeIt/issues/139)
 - Happy Coding :)
 
 
