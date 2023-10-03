@@ -1,6 +1,6 @@
 # codeIt
 
-## GUIDELINES FOR CONTRIBUTNG.
+## GUIDELINES FOR CONTRIBUTING.
 
 - Check for an available issue you are comfortable on working and request to get assigned on that work.
 - If you don't find any issue to work on , Create a new issue as per the below guideline.
