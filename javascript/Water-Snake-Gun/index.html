@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake, Water, Gun</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Snake, Water, Gun</h1>
+        <div class="instructions">
+            <h2>Instructions:</h2>
+            <ul>
+                <li>Press "0" for Snake</li>
+                <li>Press "1" for Water</li>
+                <li>Press "2" for Gun</li>
+            </ul>
+        </div>
+        <div class="game-area">
+            <div class="player">
+                <h2>User</h2>
+                <div id="contuser"></div>
+            </div>
+            <div class="versus">VS</div>
+            <div class="computer">
+                <h2>Computer</h2>
+                <div id="contcpu"></div>
+            </div>
+        </div>
+        <div class="input-box">
+            <label for="input">Enter Your Choice Here:</label>
+            <input type="text" name="input" id="input" placeholder="Enter 0, 1, or 2">
+            <button class="btn" id="submit" onclick="game()">Submit</button>
+        </div>
+        <div id="result"></div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

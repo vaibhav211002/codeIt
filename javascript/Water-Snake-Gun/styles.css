@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.instructions {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.instructions h2 {
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li::before {
+    content: "•";
+    margin-right: 10px;
+}
+
+.game-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.player, .computer {
+    flex: 1;
+}
+
+.player h2, .computer h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.versus {
+    flex: 1;
+    font-size: 24px;
+}
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#result {
+    font-size: 24px;
+}
+
+/* Styles for Snake (id="img1") */
+#img1 {
+    max-width: 100px; 
+    height: auto;
+  }
+  
+  /* Styles for Water (id="img2") */
+  #img2 {
+    max-width: 100px; 
+    height: auto;
+  }
+  
+  /* Styles for Gun (id="img3") */
+  #img3 {
+    max-width: 100px; 
+    height: auto;
+  }
+   
