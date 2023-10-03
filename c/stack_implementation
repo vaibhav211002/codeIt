@@ -1,0 +1,62 @@
+#include <stdio.h>
+#define MAX 5
+
+int stack[MAX];
+int top = -1;
+
+void push() {
+    int x;
+    if (top == MAX - 1) {
+        printf("Overflow\n");
+    } else {
+        printf("Enter Data: ");
+        scanf("%d", &x);
+        top++;
+        stack[top] = x;
+    }
+}
+
+void pop() {
+    if (top == -1) {
+        printf("Stack is Empty\n");
+    } else {
+        printf("Popped Element: %d\n", stack[top]);
+        top--;
+    }
+}
+
+void display() {
+    if (top == -1) {
+        printf("Stack is Empty\n");
+    } else {
+        printf("The Stack is: ");
+        for (int i = top; i >= 0; i--) {
+            printf("%d", stack[i]);
+            if (i != 0) {
+                printf(" -> ");
+            }
+        }
+        printf("\n");
+    }
+}
+
+void peek() {
+    if (top == -1) {
+        printf("Stack is Empty\n");
+    } else {
+        printf("Top Element: %d\n", stack[top]);
+    }
+}
+
+int main() {
+
+    push();
+    push();
+    push();
+    display();
+    pop();
+    display();
+    peek();
+
+    return 0;
+}
