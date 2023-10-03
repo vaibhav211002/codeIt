@@ -1,3 +1,11 @@
+
+//The program you provided implements a basic stack data structure in C. It allows the user to perform the following operations on the stack:
+//Push: The push function allows the user to input an integer value and pushes it onto the stack.
+//Pop: The pop function removes and prints the top element from the stack.
+//Display: The display function prints the elements of the stack from top to bottom, separated by "->".
+//Peek: The peek function prints the value of the top element of the stack without removing it.
+
+
 #include <stdio.h>
 #define MAX 5
 
