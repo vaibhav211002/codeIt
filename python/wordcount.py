@@ -1,9 +1,15 @@
-paragraph = input("Enter Your Paragraph Here: ")
+import re #re here stand for regular expression
 
-words = paragraph.split()
+def count_words(paragraph):
+    # Use regular expression to split the paragraph into words
+    words = re.findall(r'\b\w+\b', paragraph)
+    
+    # Count the number of words
+    word_count = len(words)
+    
+    return word_count
 
-# Count the number of words
-num_words = len(words)
-
-# Print the result
-print(f"Number of words in the paragraph: {num_words}")
+# Example 
+paragraph = "This is an example paragraph, and it contains multiple words. Accurate word counting is important."
+result = count_words(paragraph)
+print("Number of words in the paragraph:", result)
