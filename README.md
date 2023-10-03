@@ -16,7 +16,7 @@
 
 ## Features 💪
 
-- 📁 Dump your code snippets or projects
+- 📁 Drop your code snippets or projects
 - 📚 Discover and learn from a wide variety of coding resources
 - 🌟 Contribute and collaborate with the coding community
 
