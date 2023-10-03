@@ -1,72 +1,58 @@
 import java.util.ArrayDeque;
 import java.util.Deque;
-import java.util.Stack;
-  
-class Test {
-    // A utility function to return precedence of a given operator Higher returned value means higher precedence
-    static int Prec(char ch)
-    {
-        switch (ch) {
-        case '+':
-        case '-':
-            return 1;
-  
-        case '*':
-        case '/':
-            return 2;
-  
-        case '^':
-            return 3;
+
+class InfixToPostfixConverter {
+    static int getPrecedence(char operator) {
+        switch (operator) {
+            case '+':
+            case '-':
+                return 1;
+            case '*':
+            case '/':
+                return 2;
+            case '^':
+                return 3;
         }
         return -1;
     }
-  
-    // The main method that converts given infix expression to postfix expression.
-    static String infixToPostfix(String exp)
-    {
-        String result = new String("");
-        Deque<Character> stack = new ArrayDeque<Character>();
-        for (int i = 0; i < exp.length(); ++i) {
-            char c = exp.charAt(i);
-            if (Character.isLetterOrDigit(c))
-                result += c;
-            else if (c == '(')
-                stack.push(c);
-            else if (c == ')') {
-                while (!stack.isEmpty()
-                       && stack.peek() != '(') {
-                    result += stack.peek();
-                    stack.pop();
+
+    static String convertInfixToPostfix(String infixExpression) {
+        String postfixResult = "";
+        Deque<Character> operatorStack = new ArrayDeque<>();
+
+        for (int i = 0; i < infixExpression.length(); ++i) {
+            char currentChar = infixExpression.charAt(i);
+            if (Character.isLetterOrDigit(currentChar))
+                postfixResult += currentChar;
+            else if (currentChar == '(')
+                operatorStack.push(currentChar);
+            else if (currentChar == ')') {
+                while (!operatorStack.isEmpty() && operatorStack.peek() != '(') {
+                    postfixResult += operatorStack.peek();
+                    operatorStack.pop();
                 }
-  
-                stack.pop();
-            }
-            else
-            {
-                while (!stack.isEmpty()
-                       && Prec(c) <= Prec(stack.peek())) {
-  
-                    result += stack.peek();
-                    stack.pop();
+                operatorStack.pop(); // Discard '('
+            } else {
+                while (!operatorStack.isEmpty() && getPrecedence(currentChar) <= getPrecedence(operatorStack.peek())) {
+                    postfixResult += operatorStack.peek();
+                    operatorStack.pop();
                 }
-                stack.push(c);
+                operatorStack.push(currentChar);
             }
         }
-  
-        // Pop all the operators from the stack
-        while (!stack.isEmpty()) {
-            if (stack.peek() == '(')
+
+        while (!operatorStack.isEmpty()) {
+            if (operatorStack.peek() == '(')
                 return "Invalid Expression";
-            result += stack.peek();
-            stack.pop();
+            postfixResult += operatorStack.peek();
+            operatorStack.pop();
         }
-        return result;
+
+        return postfixResult;
     }
-  
-    // Driver code 
-    public static void main(String[] args)
-    {
-        String exp = "a+b*(c^d-e)^(f+g*h)-i";
-        System.out.println(infixToPostfix(exp));
+
+    public static void main(String[] args) {
+        String infixExp = "a+b*(c^d-e)^(f+g*h)-i";
+        System.out.println(convertInfixToPostfix(infixExp));
     }
 }
