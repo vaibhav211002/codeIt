@@ -2,12 +2,18 @@
 
 - This folder is for contributing C programs.
 
-| Programs                                   |
-| ------------------------------------------ |
-| **[Armstrong number](armstrong.c)**        |
-| **[Binomial program](binomial.c)**         |
-| **[Greatest Common Divisor (GCD)](gcd.c)** |
-| **[Print "Hello" ](hello.c)**              |
+| Programs                                            |
+| --------------------------------------------------- |
+| **[Armstrong number](armstrong.c)**                 |
+| **[Binomial program](binomial.c)**                  |
+| **[Greatest Common Divisor (GCD)](gcd.c)**          |
+| **[Print "Hello" ](hello.c)**                       |
+| **[Huffman Encodeing](huffman_encoding.c)**         |
+| **[Linked List](linked_list.c)**                    |
+| **[Merge Sort](mergeSort.c)**                       |
+| **[N Queen Problem ](n_queen_problem.c)**           |
+| **[Open Pyramid Pattern ](open_pyramid_pattern.c)** |
+| **[Stack Implementation ](stack_implementation.c)** |
 
 ## Usage of the "C" Folder
 
