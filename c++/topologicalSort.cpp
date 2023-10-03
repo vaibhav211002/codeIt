@@ -1,8 +1,7 @@
 //DirectedGraphTopologicalSort.cpp : Program for topological sorting of directed acyclic graph.
 
-#include<iostream>
-#include<string>
-#include<queue>
+#include<bits/stdc++.h>
+#include <exception>
 using namespace std;
 
 static const int maxSize = 30;
@@ -76,7 +75,7 @@ int DirectedGraph::getIndex(string vertexName)
             return i;
     }
 
-    throw exception("Invalid Vertex");
+    throw invalid_argument("Invalid Vertex");
 
 }//End of getIndex()
 
@@ -160,7 +159,7 @@ void DirectedGraph::topologicalOrder()
 
     if(count < nVertices)
     {
-        throw exception("Graph contains cycle. Topological order is not possible.");
+        throw invalid_argument("Graph contains cycle. Topological order is not possible.");
     }
 
     cout << "Vertices in topological order are :\n";
