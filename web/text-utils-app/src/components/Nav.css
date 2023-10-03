@@ -1,0 +1,29 @@
+.pallete{
+    margin-right: 0px;
+}
+.pallete div{
+    height: 6vh;
+    width: 3vw;
+    border-radius: 100%;
+    background-color: rgb(161, 24, 24);
+    margin: 0px 10px;
+}
+
+.pallete div:focus{
+    /* border: 2px orange solid; */
+    outline-offset: 0.1em;
+    outline-color: rgb(141, 141, 141);
+    outline-style:dashed;
+    outline-width: 0.1em;
+}
+
+#one{
+    background-color: cyan;
+}
+#two{
+    background-color: beige;
+}
+#three{
+    background-color:aquamarine;
+}
+
