@@ -10,6 +10,13 @@
 | **[First java program- hello world](Hello.java)**         |
 | **[Demonstration of multi-threading](multithread.java)**    |
 | **[GCD Implementation Program](gcd.java)**    |
+| **[Fibonacci Series](fibonacci.java)**    |
+| **[Printing Open Diamond-Shape Star Pattern](open_diamond_pattern.java)**    |
+| **[Printing Open Pyramid-Shape Star Pattern](open_pyramid_pattern.java)**    |
+| **[Selection Sort Algorithm](SelectionSort.java)**    |
+| **[Infix to Postfix Program](InfixToPostfix.java)**    |
+
+
 
 
 ## Usage of the "java" Folder
